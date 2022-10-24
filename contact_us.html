@@ -1,14 +1,129 @@
-<link rel="stylesheet" href="style_a.css">
-<div class="ashton_header">
-  <a href="index.html"><img src="logo.png" alt="Smoothie Days" class="logo"></a>
-  <div class="topnav">
-    <h2 style="margin:30px;">
-      <a href="fit_your_goals.html" style="float:left;">Fit Your Goals</a>
-      <a href="about_us.html" style="float:left;">About Us</a>
-      <a href="faq.html" style="float:right;">FAQ</a>
-      <a href="rewards.html" style="float:right;">Rewards</a>
-      <a href="menu.html" style="float:right;">Menu</a>
-      <a href="contact_us.html" style="float:right;">Contact Us</a>
-    </h2>
-  </div>
-</div>
+<!<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>
+      Contact Smoothie Days
+    </title>
+    <link rel="stylesheet" href="style_a.css">
+    <script src="jquery-3.6.1.min.js"></script>
+  </head>
+
+
+
+
+  <body>
+
+    <!-- Header -->
+    <br>
+    <div class="ashton_header">
+      <a href="index.html"><img src="logo.png" alt="Smoothie Days" class="logo"></a>
+      <br>
+      <br>
+      <div class="topnav">
+        <h2 style="margin:30px;">
+          <a href="fit_your_goals.html" style="float:left;">Fit Your Goals</a>
+          <a href="about_us.html" style="float:left;">About Us</a>
+          <a href="faq.html" style="float:right;">FAQ</a>
+          <a href="rewards.html" style="float:right;">Rewards</a>
+          <a href="menu.html" style="float:right;">Menu</a>
+          <a href="contact_us.html" style="float:right;">Contact Us</a>
+        </h2>
+      </div>
+    </div>
+    <br>
+    <br>
+
+    <!-- Headline -->
+    <div class= "line"></div>
+    <div class="headline" style="background: #e8ae5f;">
+      <h4>Connect With Us!<h4>
+    </div>
+    <div class= "line"></div>
+
+    <br>
+
+
+    <!-- input class -->
+    <form style="text-align:center;color:rgb(2, 65, 10)">
+      <p class="userinfo"><label>(*) Name:</label> <input type="text"  name='name' placeholder="John Doe"/></p>
+      <p class="userinfo"><label>(*) Email:</label>  <input type="text"  name='email' placeholder="John_Doe@gmail.com"/></p>
+      <p style="font-size:8px;">If you use a phone, please call us at 180-SMOOTHIE-DAYS instead.
+      <br>
+      <br>
+      <p style="font-size:16px; font-weight:bold;">(*) Let us know what's going on!:</p>
+      <textarea class="question" rows="15" cols="52" placeholder="Questions and Concerns"></textarea>
+      <br>
+      <br>
+      <input type = "button" value = "Submit Question" />
+    </form>
+
+    <!-- confirm class -->
+    <p class="onsubmit">
+      We thank you for submitting your question.<br>
+      Our Team will get back to you when we can!
+    </p>
+
+    <!-- On submit, check if fields are filled, if true, submit, if false warn -->
+    <script>
+      // Hide the submit menu
+      $(document).ready(function() {
+      	$('p[class="onsubmit"]').hide();
+
+      });
+
+
+      $('input[type="button"]').click(function() {
+        // PURPOSE: Checks if the input fields were all filled in
+        // RETURNS: True if they were, false if they weren't
+        function isValid() {
+          var name = $('input[name="name"]').val();
+          var email = $('input[name="email"]').val();
+      		if (name.length < 1 || email.length < 1)
+      		{
+      			alert("ERROR: Please check one of your input fields");
+      			return false;
+      		}
+
+          var question = $('textarea').val();
+          if (question.length < 1)
+      		{
+      			alert("ERROR: Please ask a valid question when submitting to our team");
+      			return false;
+      		}
+
+      		// check if an item has been ordered
+          return true;
+        }
+
+
+        if (isValid())
+        {
+          // hide all elements on page
+          $('form').hide("slow");
+          $('p[class="onsubmit"]').show("slow");
+
+        }
+      });
+
+
+
+
+    </script>
+
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p style="text-align:center;opacity:0.5;">Smoothie Days &#169; All rights reserved</p>
+    <br>
+  </body>
+
+<html>
