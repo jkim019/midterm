@@ -15,13 +15,180 @@
   </div>
 </div>
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Smooties Page</title>
+<style>
+	 body{
+            background-image: url('darkdark.jpeg') ;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            color: aliceblue;
+            text-align: center;
+        }
+    img{
+        /* opacity: 0.5; */
+        border-radius: 30px;
+        background-color: black;
+        }
+        table {
+  border-collapse: separate;
+  border-spacing: 0 15px;
+}
+    .images{
+    transition: transform 0.5s;
+    width: 100px;
+    height: 120px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    outline: none;
+    margin-top: 30px;
+}
+
+
+th, td {
+  width: 200px;
+  text-align: center;
+  border: 1px solid black;
+  padding: 5px;
+}
+/* Parent Container */
+.content_img{
+ position: relative;
+ width: 200px;
+ height: 200px;
+ float: left;
+ margin-right: 10px;
+}
+
+/* Child Text Container */
+.content_img div{
+ position: absolute;
+ bottom: 0;
+ right: 0;
+ background: black;
+ color: white;
+ margin-bottom: 5px;
+ font-family: sans-serif;
+ /* opacity: 0; */
+ 
+ visibility: hidden;
+ -webkit-transition: visibility 0s, opacity 0.5s linear; 
+ transition: visibility 0s, opacity 0.5s linear;
+}
+
+/* Hover on Parent Container */
+.content_img:hover{
+ cursor: pointer;
+ opacity: 0.5;
+}
+
+.content_img:hover div{
+ width: 150px;
+ padding: 8px 15px;
+ visibility: visible;
+ opacity: 0.7; 
+ font-size: smaller;
+}
+</style>
+</head>
+<body>
+    <table>
+        <thead>
+
+        <tr>
+            <th> <h3> Green </h3> </th>
+            <th> <h3> Tropical</h3> </th>
+            <th> <h3> Strawberry </h3> </th>
+        </tr>
+
+        </thead>
+
+        <tbody>
+            <tr class = "images">
+
+                <td><div class="content_img">
+                    <img src='fries.jpeg' width="200" height="200">
+                    <div>
+                        <p>Calories: </p><br>
+                        <p>Sugar: </p><br>
+                        <p>Sodium: </p><br>
+                        <p>Cholesterol: </p><br>
+                </div>
+                   </div> </td>
+                   <td><div class="content_img">
+                    <img src="hotel4.jpeg" width="200" height="200">
+                    <div>
+                        <p>Calories: </p><br>
+                        <p>Sugar: </p><br>
+                        <p>Sodium: </p><br>
+                        <p>Cholesterol: </p><br>
+                    </div>
+                   </div> </td>
+                   <td><div class="content_img">
+                    <img src="hotel5.jpeg"width="200"  height="200">
+                    <div>
+                        <p>Calories: </p><br>
+                        <p>Sugar: </p><br>
+                        <p>Sodium: </p><br>
+                        <p>Cholesterol: </p><br>
+                    </div>
+                   </div> </td>
+            </tr>
+            
+        <tbody>
+    </table>
+<br><br><br><br><br><br><br>
+    <table>
+        <thead>
+
+        <tr>
+            <th> <h3> Green </h3> </th>
+            <th> <h3> Tropical</h3> </th>
+            <th> <h3> Strawberry </h3> </th>
+        </tr>
+
+        </thead>
+
+        <tr class = "images">
+
+            <td><div class="content_img">
+                <img src='fries.jpeg' width="200" height="200">
+                <div>
+                    <p>Calories: </p><br>
+                    <p>Sugar: </p><br>
+                    <p>Sodium: </p><br>
+                    <p>Cholesterol: </p><br>
+                </div>
+               </div> </td>
+               <td><div class="content_img">
+                <img src="hotel4.jpeg" width="200" height="200">
+                <div>
+                    <p>Calories: </p><br>
+                    <p>Sugar: </p><br>
+                    <p>Sodium: </p><br>
+                    <p>Cholesterol: </p><br>
+                </div>
+               </div> </td>
+               <td><div class="content_img">
+                <img src="hotel5.jpeg"width="200"  height="200">
+                <div>
+                    <p>Calories: </p><br>
+                    <p>Sugar: </p><br>
+                    <p>Sodium: </p><br>
+                    <p>Cholesterol: </p><br>
+                </div>
+               </div> </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
 <p style="text-align:center;opacity:0.5;">Smoothie Days &#169; All rights reserved</p>
 <br>
