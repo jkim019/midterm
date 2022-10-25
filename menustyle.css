@@ -40,14 +40,14 @@ a {
 }
 
 
-/* .logo {
+.logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 380px;
   transition: all .2s ease-in-out;
 
-} */
+}
 
 /* .logo:hover {
   transform: scale(1.05);
