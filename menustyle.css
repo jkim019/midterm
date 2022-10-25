@@ -21,12 +21,11 @@ a {
   color:white;
 }
 
-/*.topnav {
+.topnav {
   white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis; */
-
-/* } */
+  text-overflow: ellipsis;
+}
 
 /* .topnav a{
   float: left;
