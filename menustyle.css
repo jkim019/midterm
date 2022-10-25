@@ -16,12 +16,12 @@ used for the biggest of logo
   font-weight:bold;
 }
 
-/* a {
+a {
   text-decoration:none;
   color:white;
 }
 
-.topnav {
+/*.topnav {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis; */
