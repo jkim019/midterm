@@ -27,31 +27,31 @@ a {
   text-overflow: ellipsis;
 }
 
-/* .topnav a{
+.topnav a{
   float: left;
   color: #f2f2f2;
-  text-align: center; */ 
-/*   padding: 14px 36px;
+  text-align: center; 
+  padding: 14px 36px;
   text-decoration: none;
 }
 
-.topnav a:hover {
+/* .topnav a:hover {
   text-shadow: 0 0 30px #fff;
-}
+} */
 
 
-.logo {
+/* .logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 380px;
   transition: all .2s ease-in-out;
 
-}
-
-.logo:hover {
-  transform: scale(1.05);
 } */
+
+/* .logo:hover {
+  transform: scale(1.05);
+}  */
 
 /* .headline {
   font-weight:normal;
