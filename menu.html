@@ -23,6 +23,47 @@ table {
 	font-size: 20px;
 	width: 80%
 }
+	th, td {
+  width: 200px;
+  text-align: center;
+  padding: 1px;
+}
+	
+.content_img{
+ position: relative;
+ width: 200px;
+ height: 200px;
+ float: left;
+ right: 0;
+ margin-right: 10px;
+}
+
+.content_img div{
+ position: absolute;
+ bottom: 0;
+ right: 0;
+ background: black;
+ color: white;
+ margin-bottom: 0px;
+ font-family: sans-serif;
+ opacity: 1;
+ border-radius: 30px;
+ visibility: hidden;
+ -webkit-transition: visibility 0s, opacity 0.5s linear; 
+ transition: visibility 0s, opacity 0.5s linear;
+}
+	 .content_img:hover{
+ cursor: pointer;
+ opacity: 0.5;
+}
+
+.content_img:hover div{
+ width: 150px;
+ padding: 8px 15px;
+ visibility: visible;
+ opacity: 0.7; 
+ font-size: smaller;
+}
 </style>
 </head>
 <body>
