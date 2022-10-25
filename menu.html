@@ -11,12 +11,10 @@
          
         }
     img{
-        /* opacity: 0.5; */
         border-radius: 30px;
         background-color: black;
         }
 	table {
-/* 		border-collapse: separate; */
 		border-spacing: 0 15px;
 		margin-left:auto;
 		margin-right:auto;
@@ -25,20 +23,15 @@
 		font-size: 20px;
 		width: 80%
 	}
-/* 		margin-right:10px; */
-/* 		margin-left:10px; */
 	
-
 th, td {
   width: 200px;
   text-align: center;
-/*   border: 1px solid black; */
   padding: 1px;
 }
-/* Parent Container */
+	
 .content_img{
  position: relative;
-/*  position: absolute; */
  width: 200px;
  height: 200px;
  float: left;
@@ -46,7 +39,6 @@ th, td {
  margin-right: 10px;
 }
 
-/* Child Text Container */
 .content_img div{
  position: absolute;
  bottom: 0;
@@ -55,14 +47,12 @@ th, td {
  color: white;
  margin-bottom: 5px;
  font-family: sans-serif;
- /* opacity: 0; */
- 
+ opacity: 0;
  visibility: hidden;
  -webkit-transition: visibility 0s, opacity 0.5s linear; 
  transition: visibility 0s, opacity 0.5s linear;
 }
 
-/* Hover on Parent Container */
 .content_img:hover{
  cursor: pointer;
  opacity: 0.5;
