@@ -6,10 +6,10 @@
 /*   padding:0; */
 
 
-} */
+/* } */ */
 
 /* used for the biggest of logo */
-h1 {
+/* h1 {
   font-weight:normal;
 }
 
@@ -33,8 +33,8 @@ a {
 .topnav a{
   float: left;
   color: #f2f2f2;
-  text-align: center;
-  padding: 14px 36px;
+  text-align: center; */
+/*   padding: 14px 36px;
   text-decoration: none;
 }
 
@@ -54,7 +54,7 @@ a {
 
 .logo:hover {
   transform: scale(1.05);
-}
+} */
 
 /* .headline {
   font-weight:normal;
@@ -75,7 +75,7 @@ a {
   margin-left:130px;
 } */
 
-@media only screen and (max-width: 1024px) {
+/* @media only screen and (max-width: 1024px) {
   .headline h1 {
     font-size: 52px;
     text-align: center;
@@ -83,7 +83,7 @@ a {
     margin-left: auto;
     margin-right: auto;
     float:none;
-  }
+  } */
 
 /*   img {
     margin-left:0px;
@@ -210,14 +210,14 @@ a {
   animation: slide 60s linear infinite;
 } */
 
-@keyframes slide {
+/* @keyframes slide {
   0% {
     transform: translate3d(0, 0, 0);
   }
   100% {
     transform: translate3d(-1692px, 0, 0); /* The image width */
   }
-}
+} */
 
 /* .menu_ad1 img{
   width:35%;
