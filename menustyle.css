@@ -72,7 +72,7 @@ a {
   margin-left:130px;
 } */
 
-/* @media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
   .headline h1 {
     font-size: 52px;
     text-align: center;
@@ -80,7 +80,7 @@ a {
     margin-left: auto;
     margin-right: auto;
     float:none;
-  } */
+  }
 
 /*   img {
     margin-left:0px;
