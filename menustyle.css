@@ -61,12 +61,12 @@ a {
   line-height:1.2;
 }
 
-/* .headline h1 {
+.headline h1 {
   font-size: 72px;
   float:right;
   margin-right:80px;
   transition: all .2s ease-in-out;
-} */
+}
 
 /* img {
   margin-left:130px;
