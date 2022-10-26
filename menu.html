@@ -1,7 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="style_a.css">
-<div class="ashton_header">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Smoothies Page</title>
+<link rel="stylesheet" href="menustyle.css">
+<style>
+	 body{
+          color: #fff;
+	  text-align: center;
+         
+        }
+    img{
+        border-radius: 30px;
+        }
+table {
+	border-spacing: 0 15px;
+	margin-left:auto;
+	margin-right:auto;
+	border: none;
+	font-size: 20px;
+	width: 80%
+}
+	th, td {
+  width: 200px;
+  text-align: center;
+  padding: 1px;
+}
+	
+.content_img{
+ position: relative;
+ width: 200px;
+ height: 200px;
+ float: left;
+ right: 0;
+ margin-right: 10px;
+}
+
+.content_img div{
+ position: absolute;
+ bottom: 0;
+ right: 0;
+ background: black;
+ color: white;
+ margin-bottom: 0px;
+ font-family: sans-serif;
+ opacity: 1;
+ border-radius: 30px;
+ visibility: hidden;
+ -webkit-transition: visibility 0s, opacity 0.5s linear; 
+ transition: visibility 0s, opacity 0.5s linear;
+}
+	 .content_img:hover{
+ cursor: pointer;
+ opacity: 0.5;
+}
+
+.content_img:hover div{
+ width: 150px;
+ padding: 8px 15px;
+ visibility: visible;
+ opacity: 0.7; 
+ font-size: smaller;
+}
+</style>
+</head>
+<body>
+	<div class="ashton_header">
   <a href="index.html"><img src="logo.png" alt="Smoothie Days" class="logo"></a>
   <div class="topnav">
     <h2 style="margin:30px;">
@@ -9,19 +73,125 @@
       <a href="about_us.html" style="float:left;">About Us</a>
       <a href="faq.html" style="float:right;">FAQ</a>
       <a href="rewards.html" style="float:right;">Rewards</a>
-      <a href="menu.html" style="float:right;">Menu</a>
+      <a href="menu.html" style="float:right;">Menu</a> 
       <a href="contact_us.html" style="float:right;">Contact Us</a>
     </h2>
   </div>
+</div> 
+	
+<div class="line"> </div>
+<div class="headline" style="background: url(fruit-wide.webp) rgba(0,0,0,0.3); background-blend-mode: multiply; background-size: cover; ">
+<h1> Your fav smoothies (250ml) </h1>
 </div>
+<div class="line"> <div>
+    <table>
+        <thead>
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+        <tr>
+            <th> <h3> Strawberry Banana Blast</h3> </th>
+            <th> <h3> Choco-Nut Machine</h3> </th>
+            <th> <h3> Tropical C-Monster </h3> </th>
+        </tr>
+
+        </thead>
+
+        <tbody>
+            <tr class = "images">
+
+                <td><div class="content_img" >
+		<img src='strawbanana.png' width="auto" height="250">
+                    	<div>
+				<p>Cals: 250 </p>
+				<p>Protein: 11g </p>
+				<p>Sugar: 5g </p>
+				<p>Cholesterol: </p>
+				<p>Ingredients: <br>
+				    Strawberry, Banana, Orange Juice </p>
+				Most agreeable Smoothie and best for brightening up your morning
+                	</div>
+                   </div> </td>
+                   <td><div class="content_img">
+                    <img src="choconut.png" width="auto" height="250">
+                    <div>
+                       <p>Cals: 420 </p>
+                        <p>Protein: 16g </p>
+                        <p>Sugar: 12g </p>
+                        <p>Cholesterol: </p>
+                        <p>Ingredients: <br>
+                            Cacao, Banana, peanut (allergy alert) Choice of nut milk (oat/almond)</p>
+                        Good for getting in calories for bulking up
+                    </div>
+                   </div> </td>
+                   <td><div class="content_img">
+                    <img src="tropic.png"width="auto" height="250">
+                    <div>
+                       <p>Cals: 350 </p>
+                        <p>Protein: 10g </p>
+                        <p>Sugar: 3g </p>
+                        <p>Cholesterol: </p>
+                        <p>Ingredients: <br>
+                            Mango, orange, pineapple, squeeze of lime, banana</p>
+                        Refreshing and full of vitamin C
+                    </div>
+                   </div> </td>
+            </tr>
+            
+        <tbody>
+    </table>
+    <table>
+        <thead>
+
+        <tr>
+            <th> <h3> Lean-and-Green </h3> </th>
+            <th> <h3> Aloha Acai Smoothie</h3> </th>
+            <th> <h3> Goin' Bananas Smoothie </h3> </th>
+        </tr>
+
+        </thead>
+
+        <tr class = "images">
+
+            <td><div class="content_img">
+                <img src='leangreen.png' width="auto" height="250">
+                <div>
+                    <p>Cals: 100 </p>
+                        <p>Protein: 13g </p>
+                        <p>Sugar: 3g </p>
+                        <p>Cholesterol: </p>
+                        <p>Ingredients: <br>
+                            Spinach Honey banana pineapple</p>
+                        Extremely slim downed smoothie and excellent smoothie to get your fiber intake in 
+                </div>
+               </div> </td>
+               <td><div class="content_img">
+                <img src="alolaacai.png" width="auto" height="250">
+                <div>
+                   <p>Cals: 300 </p>
+                        <p>Protein: 10g </p>
+                        <p>Sugar: 3g </p>
+                        <p>Cholesterol: </p>
+                        <p>Ingredients: <br>
+                            Acai, Strawberry, banana, vegan yogurt</p>
+                        Refreshing and full of vitamin C
+                </div>
+               </div> </td>
+               <td><div class="content_img">
+                <img src="bana.png"width="auto"  height="250">
+                <div>
+                  <p>Cals: 200 </p>
+                        <p>Protein: 20g </p>
+                        <p>Sugar: 3g </p>
+                        <p>Cholesterol: </p>
+                        <p>Ingredients: <br>
+                            Banana, Vegan protein powder derived from chia seeds, nut milk</p>
+                        The slimmest Smoothie with the most protein.
+                </div>
+               </div> </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
 <p style="text-align:center;opacity:0.5;">Smoothie Days &#169; All rights reserved</p>
 <br>
